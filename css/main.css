@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+	font-family: 'Asap', sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+section form {
+	display: inline-block;
+}
+
+button, input{
+	border-radius: 50px;
+	padding: 10px 15px;
+	outline: none;
+}
+input{
+	border: none;
+}
+input[name="recherche"]{
+	border: 1px solid lightblue;
+	border-radius: 5px;
+}
+
+input[name="recherche"]::placeholder{
+	font-style: italic;
+}
+input[value="Search"]{
+	background-color: #74b9ff;
+	background-image: linear-gradient(#74b9ff,#0984e3);
+	color: #FCFCFC;
+}
+
+input[value="Add"]:enabled{
+	background-color: #2ecc71;
+	background-image: linear-gradient(#2ecc71,#27ae60);
+	color: #FCFCFC;
+}
+input[value="Add"]:enabled:hover{
+	background-color: #27ae60;
+	background-image: none;
+
+}
+
+
+input[type="submit"]:hover:enabled{
+	cursor: pointer;
+}
+
+input[value="Search"]:hover{
+	background-color: #0984e3;
+	background-image: none;
+}
+
+input[value="Remove"]{
+	background-color: #D93A3A;
+	background-image: linear-gradient(#D93A3A,#961d1d);
+	color: #FCFCFC;
+	
+}
+input[value="Remove"]:hover{
+	color: white;
+	cursor: pointer;
+	background-image: none;
+	background-color: #961d1d;
+}
+
+td{
+	padding: 10px;
+}
+
+input[name='randomizer']{
+	display: inline-block;
+	background-color: #9b59b6;
+	background-image: linear-gradient(#9b59b6,#8e44ad);
+	color: #FCFCFC;
+}
+
+input[name='randomizer']:hover{
+	background-image: none;
+	background-color: #8e44ad;
+}
