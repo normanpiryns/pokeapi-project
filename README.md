@@ -1,2 +1,2 @@
 # pokeapi-project
-A small project using an external API
+A small PHP OOP / JavaScript project using an external API
